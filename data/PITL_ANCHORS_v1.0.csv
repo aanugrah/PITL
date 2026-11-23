@@ -1,0 +1,9 @@
+anchor_id,component,component_name,text
+A1,C1,"Alert to guardian on serious harm, bounded","Where the service detects a risk of serious harm to a child, the provider shall notify the child's verified parent or guardian without delay, stating the nature of the concern and the steps available to respond."
+A2,C1,"Alert to guardian on serious harm, bounded","Notification to a parent or guardian shall be limited to acute risks above a threshold set by the provider and documented in its risk assessment, and shall not be sent for routine or low-risk activity."
+A3,C1,"Alert to guardian on serious harm, bounded","The child shall be informed, in age-appropriate terms, that notifications may be sent to a parent or guardian, and shall be told when one has been sent."
+A4,C1,"Alert to guardian on serious harm, bounded",A child shall be able to reach a helpline or counselling service through the service without parental notification or consent.
+B1,C2,Guardian-verified enforcement (anti-bypass),Parental controls and supervision settings shall be linked to an account whose holder has been verified as the child's parent or guardian by at least two independent authentication factors.
+B2,C2,Guardian-verified enforcement (anti-bypass),A child's account shall not be capable of removing or altering supervision settings set by a verified guardian.
+B3,C2,Guardian-verified enforcement (anti-bypass),"The provider shall take reasonable steps to detect and prevent a child from accessing the service through an account registered to an adult, and shall not rely on self-declaration of age."
+B4,C2,Guardian-verified enforcement (anti-bypass),Verification data collected for these purposes shall be used only for that purpose and deleted once no longer needed.

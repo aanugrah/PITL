@@ -1,0 +1,57 @@
+jurisdiction,anchor,rank_in_jur,cos,global_rank,doc,locator,class,reading
+Australia,A1,1,0.134,131,AU-02,block 2,F,Penalties and the minimum age of 16 (fact sheet)
+Australia,A2,1,0.203,33,AU-01,Section 1,F,Title clause
+Australia,A3,1,0.146,91,AU-01,Section 3,F,Authority clause
+Australia,A4,1,0.238,13,AU-01,Section 4A,F,Definition of recommender and logged-in features
+Australia,B1,1,0.213,29,AU-01,Section 1,F,Title clause
+Australia,B2,1,0.16,75,AU-03,Section 1,F,Short title
+Australia,B3,1,0.316,11,AU-02,block 3,G,"Reasonable steps to prevent under-16s having an account, likely by age assurance (fact sheet); verifies the child, not the guardian"
+Australia,B4,1,0.259,2,AU-03,Section 3,F,Schedules clause
+China,A1,1,0.378,4,CN-04,Article 40,P,School informs guardians of internet-addiction risk (school duty)
+China,A2,1,0.314,3,CN-03,Article 12,G,Complaint and report portals
+China,A3,1,0.372,1,CN-04,Article 40,F,School informs guardians; does not inform the child
+China,A4,1,0.341,2,CN-04,Article 16,F,Schools: internet literacy
+China,B1,1,0.318,3,CN-04,Article 46,G,Online games verify minors' identity through a state system
+China,B2,1,0.255,4,CN-04,Article 36,F,Staff access to minors' data
+China,B3,1,0.37,3,CN-04,Article 46,G,"Online games verify minors' identity; verifies the child, not the guardian"
+China,B4,1,0.298,1,CN-01,Article 35,F,Effective-date clause
+European Union,A1,1,0.413,2,EU-03,Article 33,F,Breach notification to the supervisory authority
+European Union,A2,1,0.373,1,EU-01,Article 90,F,Scientific panel alert to the AI Office
+European Union,A3,1,0.286,5,EU-03,Article 7,G,Conditions for consent
+European Union,A4,1,0.311,3,EU-03,Article 8,G,Verifying consent by the holder of parental responsibility
+European Union,B1,1,0.358,2,EU-03,Article 8,P,Reasonable efforts to verify consent by the holder of parental responsibility
+European Union,B2,1,0.262,2,EU-03,Article 8,G,Verifying parental consent; nothing on supervision settings
+European Union,B3,1,0.363,5,EU-01,Article 21,F,Cooperation with authorities
+European Union,B4,1,0.255,3,EU-03,Article 87,F,National identification number
+Indonesia,A1,1,0.448,1,ID-01,Article 13,G,Signal to the child when monitored; no alert to a guardian
+Indonesia,A2,1,0.256,14,ID-01,Article 13,G,Signal to the child when monitored; no alert threshold
+Indonesia,A3,1,0.359,2,ID-01,Article 13,P,Child is signalled when monitored or tracked (not that alerts may be sent)
+Indonesia,A4,1,0.377,1,ID-01,Article 13,G,Signal to the child when monitored; no helpline route
+Indonesia,B1,1,0.39,1,ID-01,Article 13,G,Signal to the child when monitored; no guardian verification
+Indonesia,B2,1,0.257,3,ID-01,Article 13,G,Signal to the child when monitored; nothing on who may change settings
+Indonesia,B3,1,0.405,1,ID-01,Article 14,G,Function options by age and capacity
+Indonesia,B4,1,0.246,5,ID-02,Article 31,F,Record of processing activities
+United Kingdom,A1,1,0.385,3,UK-04,Section 75,G,Parents' requests for a deceased child's information
+United Kingdom,A2,1,0.313,5,UK-04,Section 36,G,Children's access assessments
+United Kingdom,A3,1,0.33,3,UK-04,Section 75,G,Parents' requests for a deceased child's information
+United Kingdom,A4,1,0.303,5,UK-04,Section 75,G,Parents' requests for a deceased child's information
+United Kingdom,B1,1,0.309,4,UK-04,Section 36,G,Children's access assessments (age assessment)
+United Kingdom,B2,1,0.313,1,UK-04,Section 36,G,Children's access assessments
+United Kingdom,B3,1,0.354,7,UK-04,Section 36,G,Children's access assessments (age assessment)
+United Kingdom,B4,1,0.254,4,UK-04,Section 86,F,Threshold figure for fees
+United States (federal),A1,1,0.061,313,US-F-01,Section 9,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),A2,1,0.051,357,US-F-01,Section 10,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),A3,1,0.046,338,US-F-02,Section 2,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),A4,1,0.014,458,US-F-01,Section 9,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),B1,1,0.025,445,US-F-02,Section 1,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),B2,1,0.075,269,US-F-01,Section 13,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),B3,1,-0.001,561,US-F-02,Section 2,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (federal),B4,1,0.035,373,US-F-01,Section 13,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),A1,1,0.127,141,US-S-02,block 7,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),A2,1,0.188,45,US-S-02,block 6,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),A3,1,0.075,254,US-S-02,block 8,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),A4,1,0.196,34,US-S-02,block 8,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),B1,1,0.146,97,US-S-02,block 8,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),B2,1,0.156,82,US-S-01,Section 1,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),B3,1,0.123,205,US-S-01,s 6-1-1704,F,Unrelated to children or guardians (executive-order or consumer-protection text)
+United States (state),B4,1,0.118,127,US-S-01,Section 1,F,Unrelated to children or guardians (executive-order or consumer-protection text)

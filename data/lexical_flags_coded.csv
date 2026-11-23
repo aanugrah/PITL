@@ -1,0 +1,45 @@
+component,doc_id,locator,class,reading
+C1,ID-01,Article 7,G,General: list of provider duties incl. parental consent and a signal to the child when monitored; no alert duty
+C1,ID-01,Article 9,G,General: parental consent; notification to parent to confirm consent of a child aged 17
+C1,ID-01,Article 13,G,General: signal to the child when monitored or tracked (transparency to the child)
+C1,CN-04,Article 19,P,"Partial: minors-protection software must have functions for ""making guardians perform their guardianship duties""; no alert trigger specified"
+C1,CN-04,Article 26,G,General: cyberbullying alert-and-prevention mechanisms; functions for minors and guardians to keep records and report
+C1,CN-04,Article 34,G,"General: guardians may access, correct and delete minors' personal information"
+C1,CN-04,Article 35,G,General: notify minors and guardians of a personal-information incident
+C1,CN-04,Article 40,P,"Partial: schools must promptly inform guardians of students inclined to internet addiction (a school duty, not a provider duty)"
+C2,US-F-01,Section 4,F,Keyword match only (unrelated or general)
+C2,US-F-01,Section 8,F,Keyword match only (unrelated or general)
+C2,US-S-02,block 10,F,Keyword match only (unrelated or general)
+C2,UK-01,block 16,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 12,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 13,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 20,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 21,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 30,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 35,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 36,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 63,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 65,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 75,P,Partial: evidence of the parent's identity or relationship may be required to release a deceased child's information
+C2,UK-04,Section 81,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 82,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 100,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 104,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 131,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 161,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 196,F,Keyword match only (unrelated or general)
+C2,UK-04,Section 237,F,Keyword match only (unrelated or general)
+C2,UK-04,Schedule 4,F,Keyword match only (unrelated or general)
+C2,UK-04,Schedule 8,F,Keyword match only (unrelated or general)
+C2,UK-04,Schedule 17,F,Keyword match only (unrelated or general)
+C2,EU-03,Article 8,P,Closest: controller must make reasonable efforts to verify that consent for a child is given or authorised by the holder of parental responsibility
+C2,EU-03,Article 12,F,Keyword match only (unrelated or general)
+C2,AU-02,block 1,F,Keyword match only (unrelated or general)
+C2,ID-01,Article 5,F,Keyword match only (unrelated or general)
+C2,ID-01,Article 22,G,"General: age verification of child users, data minimisation and deletion (verifies the child, not the guardian)"
+C2,ID-01,Article 28,F,Keyword match only (unrelated or general)
+C2,CN-04,Article 20,F,Keyword match only (unrelated or general)
+C2,CN-04,Article 26,F,Keyword match only (unrelated or general)
+C2,CN-04,Article 31,P,Partial: providers request minors' or guardians' true identity information
+C2,CN-04,Article 46,G,General: online games verify minors' identity through a state system
+C2,AU-03,Schedule 1,G,General: limits on collecting government identification for age assurance

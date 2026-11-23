@@ -1,0 +1,65 @@
+{
+  "anchors_sha256": "f17cd63ed0c1db695de05b4f491f25377dfb4e55d2e68a01d55223f64823b056",
+  "anchors_sha256_match": true,
+  "shapes": {
+    "prov_hier": [
+      1085,
+      768
+    ],
+    "anchor": [
+      8,
+      768
+    ],
+    "null": [
+      4,
+      768
+    ]
+  },
+  "consistency_check": {
+    "pass": true,
+    "max_abs_diff": 3.337860107421875e-06,
+    "samples": [
+      {
+        "index": 1041,
+        "provision_id": "CN-04#0052",
+        "doc_id": "CN-04",
+        "locator": "Article 53",
+        "max_abs_diff": 4.76837158203125e-07
+      },
+      {
+        "index": 460,
+        "provision_id": "UK-04#0227",
+        "doc_id": "UK-04",
+        "locator": "Section 228",
+        "max_abs_diff": 4.470348358154297e-07
+      },
+      {
+        "index": 1069,
+        "provision_id": "CN-05#0016",
+        "doc_id": "CN-05",
+        "locator": "Article 17",
+        "max_abs_diff": 3.337860107421875e-06
+      },
+      {
+        "index": 218,
+        "provision_id": "UK-03#0015",
+        "doc_id": "UK-03",
+        "locator": "block 16",
+        "max_abs_diff": 9.5367431640625e-07
+      },
+      {
+        "index": 633,
+        "provision_id": "EU-02#0016",
+        "doc_id": "EU-02",
+        "locator": "Article 17",
+        "max_abs_diff": 3.1540791223250153e-07
+      }
+    ]
+  },
+  "raw_cosine_ranges": {
+    "anchor_anchor_min": 0.8588421550766248,
+    "anchor_anchor_max": 0.9412740809292417,
+    "anchor_null_min": 0.8136774564371235,
+    "anchor_null_max": 0.8844192261980046
+  }
+}

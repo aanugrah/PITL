@@ -1,0 +1,63 @@
+{
+  "total_provisions": 1085,
+  "total_words": 340326,
+  "total_documents": 21,
+  "short_provisions": 68,
+  "tests_passed": "12/12",
+  "all_tests_passed": true,
+  "max_unk_doc": "UK-03",
+  "max_unk_share_pct": 0.0902,
+  "zero_unk_docs": 17,
+  "tests": {
+    "Test 01 - No (cid: artifacts": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 02 - No U+FFFD replacement char": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 03 - No private-use characters": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 04 - Unique provision IDs": {
+      "pass": true,
+      "unique": 1085
+    },
+    "Test 05 - No duplicate text provisions": {
+      "pass": true,
+      "duplicates": 0
+    },
+    "Test 06 - Max length bounded (<3000w)": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 07 - UK-04 first provision is Sec 1": {
+      "pass": true,
+      "locator": "Section 1"
+    },
+    "Test 08 - EU-01 contains Annex III": {
+      "pass": true,
+      "matches": 1
+    },
+    "Test 09 - No residual header/footer lines": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 10 - Brief 7B residue patterns": {
+      "pass": true,
+      "violations": 0
+    },
+    "Test 11 - Character inventory completeness": {
+      "pass": true,
+      "unaccounted": 0
+    },
+    "Test 12 - UNK token share < 0.5%": {
+      "pass": true,
+      "max_doc": "UK-03",
+      "max_pct": 0.0902,
+      "zero_unk_docs": 17
+    }
+  }
+}

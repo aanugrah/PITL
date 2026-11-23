@@ -1,0 +1,5 @@
+variant,n_provisions,k,stability_ari,span_share,ari_vs_full
+A_all,1085,8,0.922,0.62,1.0
+B_no_tiny_docs,1062,8,0.928,0.62,0.99
+C_no_tiny_no_general_data_laws,837,7,0.935,0.43,0.96
+D_no_UK04,827,10,0.93,0.2,0.67
