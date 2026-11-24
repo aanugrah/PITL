@@ -22,7 +22,7 @@ Methodology:
    - United States (Federal): 3 (3.0% of sample; N = 12 unflagged)
    - Australia: 3 (3.0% of sample; N = 8 unflagged)
    - Total = exactly 100 provisions.
-4. Generates blind coding sheets for author verification:
+4. Generates blind coding sheets (under `results/recall_blind_sheet/` by default) for verification:
    - UNFLAGGED_SAMPLE_BLIND_SHEET.xlsx
    - UNFLAGGED_SAMPLE_BLIND_SHEET.csv
    - UNFLAGGED_SAMPLE_BLIND_SHEET.md
@@ -381,7 +381,7 @@ def export_blind_sheet_markdown(df_sample: pd.DataFrame, out_path: Path):
 def main():
     parser = argparse.ArgumentParser(description="Sample unflagged provisions for recall check.")
     parser.add_argument("--seed", type=int, default=SEED, help="Random seed (default: 20261108)")
-    parser.add_argument("--out-dir", type=str, default=None, help="Output directory")
+    parser.add_argument("--out-dir", type=str, default=None, help="Output directory (default: results/recall_blind_sheet)")
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
@@ -391,7 +391,7 @@ def main():
     if args.out_dir:
         out_dir = Path(args.out_dir)
     else:
-        out_dir = script_dir
+        out_dir = package_root / "results" / "recall_blind_sheet"
 
     out_dir.mkdir(parents=True, exist_ok=True)
 

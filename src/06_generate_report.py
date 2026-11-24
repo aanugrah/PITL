@@ -3,7 +3,7 @@
 06_generate_report.py
 
 Generates results/REPLICATION_REPORT.md comparing all v2.2 script outputs
-against the values reported in DISSERTATION_AFTER_CHINA_ORDER.md.
+against the values reported in the dissertation.
 """
 
 import json
@@ -52,7 +52,7 @@ def main():
     lines = [
         "# Replication Report (Corpus v2.2)",
         "",
-        "| Metric | Dissertation (`DISSERTATION_AFTER_CHINA_ORDER.md`) | Reproduced | Match |",
+        "| Metric | Dissertation | Reproduced | Match |",
         "|---|---|---|---|",
     ]
     mismatches = 0

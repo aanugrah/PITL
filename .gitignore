@@ -64,5 +64,6 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Generated figures (reproduced by 07_make_figures.py)
-figures/*.png
+# Generated outputs (reproduced by run_all.sh and sample_unflagged_provisions.py)
+results/
+figures/

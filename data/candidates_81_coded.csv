@@ -1,82 +1,82 @@
 provision_id,doc_id,jurisdiction,locator,route,class,reason
-US-F-01#0003,US-F-01,United States (federal),Section 4,K,F,
-US-F-01#0007,US-F-01,United States (federal),Section 8,K,F,
-US-F-01#0008,US-F-01,United States (federal),Section 9,Rj,F,
-US-F-01#0009,US-F-01,United States (federal),Section 10,Rj,F,
-US-F-01#0012,US-F-01,United States (federal),Section 13,Rj,F,
-US-F-02#0000,US-F-02,United States (federal),Section 1,Rj,F,
-US-F-02#0001,US-F-02,United States (federal),Section 2,Rj,F,
+US-F-01#0003,US-F-01,United States (federal),Section 4,K,F,AI safety and security testing standards
+US-F-01#0007,US-F-01,United States (federal),Section 8,K,F,Healthcare and public-benefit AI rules
+US-F-01#0008,US-F-01,United States (federal),Section 9,Rj,F,Privacy and civil-liberties agency rules
+US-F-01#0009,US-F-01,United States (federal),Section 10,Rj,F,Federal agency AI procurement and use
+US-F-01#0012,US-F-01,United States (federal),Section 13,Rj,F,General implementation provisions
+US-F-02#0000,US-F-02,United States (federal),Section 1,Rj,F,Purpose and policy on AI leadership
+US-F-02#0001,US-F-02,United States (federal),Section 2,Rj,F,Revocation and review of prior AI orders
 US-F-02#0005,US-F-02,United States (federal),Section 6,Rj,F,General savings and agency authority clause
-US-S-01#0000,US-S-01,United States (state),Section 1,Rj,F,
-US-S-01#0004,US-S-01,United States (state),s 6-1-1704,Rj,F,
-US-S-02#0005,US-S-02,United States (state),block 6,Rj,F,
-US-S-02#0006,US-S-02,United States (state),block 7,Rj,F,
-US-S-02#0007,US-S-02,United States (state),block 8,Rj,F,
-US-S-02#0009,US-S-02,United States (state),block 10,K,F,
-UK-01#0015,UK-01,United Kingdom,block 16,K,F,
-UK-01#0031,UK-01,United Kingdom,block 32,R,F,
-UK-04#0011,UK-04,United Kingdom,Section 12,K,F,
-UK-04#0012,UK-04,United Kingdom,Section 13,K,F,
-UK-04#0019,UK-04,United Kingdom,Section 20,K,F,
-UK-04#0020,UK-04,United Kingdom,Section 21,K,F,
-UK-04#0029,UK-04,United Kingdom,Section 30,K,F,
-UK-04#0034,UK-04,United Kingdom,Section 35,K,F,
-UK-04#0035,UK-04,United Kingdom,Section 36,"K,R,Rj",G,
-UK-04#0062,UK-04,United Kingdom,Section 63,K,F,
-UK-04#0064,UK-04,United Kingdom,Section 65,K,F,
-UK-04#0074,UK-04,United Kingdom,Section 75,"K,R,Rj",P,
-UK-04#0080,UK-04,United Kingdom,Section 81,K,F,
-UK-04#0081,UK-04,United Kingdom,Section 82,K,F,
-UK-04#0085,UK-04,United Kingdom,Section 86,"R,Rj",F,
-UK-04#0099,UK-04,United Kingdom,Section 100,K,F,
-UK-04#0103,UK-04,United Kingdom,Section 104,K,F,
-UK-04#0130,UK-04,United Kingdom,Section 131,K,F,
-UK-04#0160,UK-04,United Kingdom,Section 161,K,F,
-UK-04#0195,UK-04,United Kingdom,Section 196,K,F,
-UK-04#0236,UK-04,United Kingdom,Section 237,K,F,
-UK-04#0244,UK-04,United Kingdom,Schedule 4,K,F,
-UK-04#0248,UK-04,United Kingdom,Schedule 8,K,F,
-UK-04#0257,UK-04,United Kingdom,Schedule 17,K,F,
-EU-01#0020,EU-01,European Union,Article 21,"R,Rj",F,
-EU-01#0026,EU-01,European Union,Article 27,R,F,
-EU-01#0072,EU-01,European Union,Article 73,R,F,
-EU-01#0089,EU-01,European Union,Article 90,"R,Rj",F,
-EU-03#0006,EU-03,European Union,Article 7,"R,Rj",G,
-EU-03#0007,EU-03,European Union,Article 8,"K,R,Rj",P,
-EU-03#0011,EU-03,European Union,Article 12,K,F,
-EU-03#0032,EU-03,European Union,Article 33,"R,Rj",F,
-EU-03#0086,EU-03,European Union,Article 87,"R,Rj",F,
-CN-01#0034,CN-01,China,Article 35,R,F,
-CN-03#0011,CN-03,China,Article 12,"R,Rj",G,
-AU-01#0000,AU-01,Australia,Section 1,Rj,F,
-AU-01#0001,AU-01,Australia,Section 3,Rj,F,
-AU-01#0003,AU-01,Australia,Section 4A,Rj,F,
-AU-02#0000,AU-02,Australia,block 1,K,F,
-AU-02#0001,AU-02,Australia,block 2,Rj,F,
-AU-02#0002,AU-02,Australia,block 3,Rj,G,
-ID-01#0004,ID-01,Indonesia,Article 5,K,F,
-ID-01#0006,ID-01,Indonesia,Article 7,K,G,
-ID-01#0008,ID-01,Indonesia,Article 9,K,G,
-ID-01#0012,ID-01,Indonesia,Article 13,"K,R,Rj",P,
-ID-01#0013,ID-01,Indonesia,Article 14,"R,Rj",G,
-ID-01#0021,ID-01,Indonesia,Article 22,K,G,
-ID-01#0027,ID-01,Indonesia,Article 28,K,F,
+US-S-01#0000,US-S-01,United States (state),Section 1,Rj,F,Statutory definitions
+US-S-01#0004,US-S-01,United States (state),s 6-1-1704,Rj,F,Deployer risk-management and impact-assessment duties
+US-S-02#0005,US-S-02,United States (state),block 6,Rj,F,General generative AI disclosure requirements
+US-S-02#0006,US-S-02,United States (state),block 7,Rj,F,General AI enforcement and safe-harbour provisions
+US-S-02#0007,US-S-02,United States (state),block 8,Rj,F,Safe-harbour and regulatory-mitigation provisions
+US-S-02#0009,US-S-02,United States (state),block 10,K,F,Consumer-protection enforcement and penalties
+UK-01#0015,UK-01,United Kingdom,block 16,K,F,Sectoral regulator coordination principles
+UK-01#0031,UK-01,United Kingdom,block 32,R,F,Context-specific regulation of AI (policy text)
+UK-04#0011,UK-04,United Kingdom,Section 12,K,F,User-to-user service safety duties for children
+UK-04#0012,UK-04,United Kingdom,Section 13,K,F,Assessment duties for user-to-user services
+UK-04#0019,UK-04,United Kingdom,Section 20,K,F,Search-service illegal-content duties
+UK-04#0020,UK-04,United Kingdom,Section 21,K,F,Search-service children's safety duties
+UK-04#0029,UK-04,United Kingdom,Section 30,K,F,Search-service risk assessments
+UK-04#0034,UK-04,United Kingdom,Section 35,K,F,Children's access assessment obligations
+UK-04#0035,UK-04,United Kingdom,Section 36,"K,R,Rj",G,Children's access assessments (age assessment)
+UK-04#0062,UK-04,United Kingdom,Section 63,K,F,Regulated provider pornographic-content duties
+UK-04#0064,UK-04,United Kingdom,Section 65,K,F,Scope of Part 5 duties
+UK-04#0074,UK-04,United Kingdom,Section 75,"K,R,Rj",P,Parents' requests for a deceased child's information
+UK-04#0080,UK-04,United Kingdom,Section 81,K,F,Duties on categorised services
+UK-04#0081,UK-04,United Kingdom,Section 82,K,F,Terms-of-service transparency duties
+UK-04#0085,UK-04,United Kingdom,Section 86,"R,Rj",F,Threshold figure consultation
+UK-04#0099,UK-04,United Kingdom,Section 100,K,F,Ofcom information-gathering notices
+UK-04#0103,UK-04,United Kingdom,Section 104,K,F,Skilled-person report powers
+UK-04#0130,UK-04,United Kingdom,Section 131,K,F,Provisional notices of contravention
+UK-04#0160,UK-04,United Kingdom,Section 161,K,F,Ofcom guidance on age assurance
+UK-04#0195,UK-04,United Kingdom,Section 196,K,F,Offences of sending false communications
+UK-04#0236,UK-04,United Kingdom,Section 237,K,F,Interpretation and definitions
+UK-04#0244,UK-04,United Kingdom,Schedule 4,K,F,Codes of practice procedures
+UK-04#0248,UK-04,United Kingdom,Schedule 8,K,F,Transparency reporting requirements
+UK-04#0257,UK-04,United Kingdom,Schedule 17,K,F,Transitional and saving provisions
+EU-01#0020,EU-01,European Union,Article 21,"R,Rj",F,Cooperation with authorities
+EU-01#0026,EU-01,European Union,Article 27,R,F,Fundamental-rights impact assessment
+EU-01#0072,EU-01,European Union,Article 73,R,F,Serious-incident reporting to authorities
+EU-01#0089,EU-01,European Union,Article 90,"R,Rj",F,Scientific panel alert to the AI Office
+EU-03#0006,EU-03,European Union,Article 7,"R,Rj",G,"Conditions for consent (general consent rules, not child-specific guardian verification)"
+EU-03#0007,EU-03,European Union,Article 8,"K,R,Rj",P,Reasonable efforts to verify consent by the holder of parental responsibility
+EU-03#0011,EU-03,European Union,Article 12,K,F,General transparency rules for data-subject information; no anchor function
+EU-03#0032,EU-03,European Union,Article 33,"R,Rj",F,Breach notification to the supervisory authority
+EU-03#0086,EU-03,European Union,Article 87,"R,Rj",F,National identification number
+CN-01#0034,CN-01,China,Article 35,R,F,Effective-date clause
+CN-03#0011,CN-03,China,Article 12,"R,Rj",G,Complaint and report portals
+AU-01#0000,AU-01,Australia,Section 1,Rj,F,Title clause
+AU-01#0001,AU-01,Australia,Section 3,Rj,F,Authority clause
+AU-01#0003,AU-01,Australia,Section 4A,Rj,F,Definition of recommender and logged-in features
+AU-02#0000,AU-02,Australia,block 1,K,F,Policy summary of minimum-age scope; no anchor function
+AU-02#0001,AU-02,Australia,block 2,Rj,F,Penalties and the minimum age of 16 (fact sheet)
+AU-02#0002,AU-02,Australia,block 3,Rj,G,"Reasonable steps to prevent under-16s having an account, likely by age assurance (fact sheet); verifies the child, not the guardian"
+ID-01#0004,ID-01,Indonesia,Article 5,K,F,Child-risk self-assessment aspects; no anchor function
+ID-01#0006,ID-01,Indonesia,Article 7,K,G,List of provider duties incl. parental consent and a signal to the child when monitored; no alert duty
+ID-01#0008,ID-01,Indonesia,Article 9,K,G,Parental consent; notification to parent to confirm consent of a child aged 17
+ID-01#0012,ID-01,Indonesia,Article 13,"K,R,Rj",P,Signal to the child when monitored; no alert to a guardian
+ID-01#0013,ID-01,Indonesia,Article 14,"R,Rj",G,Function options by age and capacity
+ID-01#0021,ID-01,Indonesia,Article 22,K,G,"Age verification of child users, data minimisation and deletion (verifies the child, not the guardian)"
+ID-01#0027,ID-01,Indonesia,Article 28,K,F,Ministerial administrative sanctions and complaint handling; no anchor function
 ID-02#0008,ID-02,Indonesia,Article 9,R,F,General right of a data subject to withdraw consent
 ID-02#0023,ID-02,Indonesia,Article 24,R,F,General controller duty to show proof of data-subject consent
-ID-02#0030,ID-02,Indonesia,Article 31,Rj,F,
-CN-04#0015,CN-04,China,Article 16,"R,Rj",F,
-CN-04#0018,CN-04,China,Article 19,K,P,
-CN-04#0019,CN-04,China,Article 20,K,F,
-CN-04#0025,CN-04,China,Article 26,K,G,
-CN-04#0030,CN-04,China,Article 31,"K,R",P,
-CN-04#0033,CN-04,China,Article 34,K,G,
-CN-04#0034,CN-04,China,Article 35,K,G,
-CN-04#0035,CN-04,China,Article 36,"R,Rj",F,
-CN-04#0039,CN-04,China,Article 40,"K,R,Rj",P,
-CN-04#0045,CN-04,China,Article 46,"K,R,Rj",G,
-AU-03#0000,AU-03,Australia,Section 1,Rj,F,
-AU-03#0002,AU-03,Australia,Section 3,"R,Rj",F,
-AU-03#0003,AU-03,Australia,Schedule 1,K,G,
+ID-02#0030,ID-02,Indonesia,Article 31,Rj,F,Record of processing activities
+CN-04#0015,CN-04,China,Article 16,"R,Rj",F,Schools: internet literacy
+CN-04#0018,CN-04,China,Article 19,K,P,"Minors-protection software must have functions for ""making guardians perform their guardianship duties""; no alert trigger specified"
+CN-04#0019,CN-04,China,Article 20,K,F,Prohibition on minor cyberbullying and harmful content; no anchor function
+CN-04#0025,CN-04,China,Article 26,K,G,Cyberbullying alert-and-prevention mechanisms; functions for minors and guardians to keep records and report
+CN-04#0030,CN-04,China,Article 31,"K,R",P,"Request minors' or guardians' true identity information, with dynamic checks for livestreaming"
+CN-04#0033,CN-04,China,Article 34,K,G,"Guardians may access, correct and delete minors' personal information"
+CN-04#0034,CN-04,China,Article 35,K,G,Notify minors and guardians of a personal-information incident
+CN-04#0035,CN-04,China,Article 36,"R,Rj",F,Staff access to minors' data
+CN-04#0039,CN-04,China,Article 40,"K,R,Rj",P,School informs guardians of internet-addiction risk (school duty)
+CN-04#0045,CN-04,China,Article 46,"K,R,Rj",G,Identity verification for online games (verifies child only)
+AU-03#0000,AU-03,Australia,Section 1,Rj,F,Short title
+AU-03#0002,AU-03,Australia,Section 3,"R,Rj",F,Schedules clause
+AU-03#0003,AU-03,Australia,Schedule 1,K,G,Limits on collecting government identification for age assurance
 CN-05#0013,CN-05,China,Article 14,K,P,Ban virtual partners for minors; under-14 consent; minors mode supporting guardian security risk alerts
 CN-05#0022,CN-05,China,Article 23,K,G,Security assessment covering extreme-emotion response and minor protection
 CN-05#0031,CN-05,China,Article 32,"R,Rj",F,Effective-date clause (15 July 2026)
