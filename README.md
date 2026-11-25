@@ -4,11 +4,11 @@
 
 Ananda Anugrah, MSc Artificial Intelligence and Government, University of Birmingham, 2026.
 
-This repository holds the data and code behind Chapters 1, 3 and 4 of the dissertation (Corpus v2.2), so that the numbers, tables and figures can be checked and re-run.
+This repository holds the data and code behind Chapters 1, 3 and 4 of the dissertation (PITL Corpus), so that the numbers, tables and figures can be checked and re-run.
 
 ## What the analysis does
 
-1. **Corpus (v2.2).** 21 AI and child-protection instruments from seven jurisdictional units (US federal, US state, UK, EU, China, Australia, Indonesia), cleaned and split into 1,085 provisions (340,326 words; 68 short provisions under 40 words; Table 3.1, Table 4.3, Appendix A). China Order No. 21 (`CN-05`) was added to the 20-document baseline (1,053 provisions) after initial screening.
+1. **PITL Corpus.** 21 AI and child-protection instruments from seven jurisdictional units (US federal, US state, UK, EU, China, Australia, Indonesia), cleaned and split into 1,085 provisions (340,326 words; 68 short provisions under 40 words; Table 3.1, Table 4.3, Appendix A). China Order No. 21 (`CN-05`) was added to the 20-document baseline (1,053 provisions) after initial screening.
 2. **Testing LegalBERT.** Provisions and eight PITL "anchor" statements are embedded with LegalBERT. The embeddings mostly reflect the drafting style of each document, and the anchors are not separated from unrelated UK statutory provisions (anchor mean 0.3045 vs null mean 0.2966, difference 0.0079), so in the dissertation the embeddings are used only to retrieve candidate provisions, not to rank countries (Section 4.2, Figure 4.1).
 3. **Thematic map.** An exploratory topic model (NMF on TF-IDF, with 60 legal-drafting stopwords plus 23 institutional/jurisdictional proper nouns removed) compares `k = 6..16` and fits `k = 8` (`ARI = 0.922`, cross-jurisdictional span `5/8 = 62.5%`) to map what each jurisdiction's instruments are about (Section 4.3, Figure 4.2, Appendix A, Tables A1–A5).
 4. **Screening for PITL.** Keyword rules (45 lexical matches: 9 C1, 37 C2, 1 overlap) and LegalBERT retrieval (43 unique provisions from top-5-per-anchor and nearest-per-jurisdiction) select 81 unique candidate provisions, which I then read and classify as partial (`7 P`), general (`14 G`) or false positive (`60 F`) (Section 4.4, Table 4.4, Figures 3.1, 4.3 and 4.4, Appendix D). **The classes are my own reading**, stored in `data/candidates_81_coded.csv`; no model produces them.
@@ -40,12 +40,12 @@ By default this writes the uncoded templates to `results/recall_blind_sheet/`.
 
 | File | What it is |
 |---|---|
-| `data/provisions_v2_2.jsonl` | The v2.2 corpus: 1,085 provisions across 21 instruments with document, jurisdiction and locator |
-| `data/embeddings_v2_2.npz`, `data/anchor_embeddings.npz` | LegalBERT embeddings of the 1,085 provisions, anchors and null statements |
+| `data/provisions.jsonl` | The PITL Corpus: 1,085 provisions across 21 instruments with document, jurisdiction and locator |
+| `data/embeddings.npz`, `data/anchor_embeddings.npz` | LegalBERT embeddings of the 1,085 provisions, anchors and null statements |
 | `data/PITL_ANCHORS_v1.0.csv` (+ `.sha256`) | The eight anchor statements, frozen before any similarity was computed |
 | `data/anchors_null.csv` | Four unrelated UK statutory provisions (tax, companies, harbours, patents) used as a negative control |
 | `data/unk_chars.csv` | Known non-vocabulary Unicode characters audited in `01_verify_corpus.py` |
-| `data/candidates_81_coded.csv` | Author's P/G/F classification and short reading/reason for all 81 unique v2.2 candidate provisions (45 lexical + 43 retrieval, 7 overlap) |
+| `data/candidates_81_coded.csv` | Author's P/G/F classification and short reading/reason for all 81 unique PITL Corpus candidate provisions (45 lexical + 43 retrieval, 7 overlap) |
 | `data/provisions_v2_1.jsonl`, `data/lexical_flags_coded.csv`, `data/top5_retrievals_coded.csv`, `data/nearest_by_jurisdiction_coded.csv` | Baseline v2.1 inputs for the recall sample only |
 | `recall_check/UNFLAGGED_SAMPLE_BLIND_SHEET.xlsx` | Completed recall check: 100 sampled unflagged provisions from the 20-document baseline with the author's codes (`0 P / 10 G / 90 F`) and notes |
 | `recall_check/sample_unflagged_provisions.py` | Reproduces the 100-provision stratified recall sample (`seed=20261108`) into `results/recall_blind_sheet/` |
@@ -59,7 +59,7 @@ Where each generated output appears in the dissertation:
 
 | Dissertation | Script | Generated output |
 |---|---|---|
-| Table 3.1, Table 4.3, Appendix A (corpus) | `01_verify_corpus.py`, `04_run_pitl_analysis.py` | `results/table_4_1_corpus_summary.csv`, `results/token_stats_v2_2.csv`, `results/lexical_flags_c1.csv`, `results/lexical_flags_c2.csv` |
+| Table 3.1, Table 4.3, Appendix A (corpus) | `01_verify_corpus.py`, `04_run_pitl_analysis.py` | `results/table_4_1_corpus_summary.csv`, `results/token_stats.csv`, `results/lexical_flags_c1.csv`, `results/lexical_flags_c2.csv` |
 | Section 4.2, Figure 4.1 | `04_run_pitl_analysis.py`, `07_make_figures.py` | `results/pitl_diagnostics.json`, `figures/fig4_1_legalbert_diagnostic.png` |
 | Section 4.3, Figure 4.2, Appendix A (Tables A1–A5) | `03_run_thematic_analysis.py`, `07_make_figures.py` | `results/table_a1_nmf_specs.csv`, `results/table_a2_nmf_k_curve.csv`, `results/figure_4_2_thematic_shares.csv`, `results/themes_summary.csv`, `results/thematic_sensitivity.csv`, `figures/fig4_2_theme_heatmap.png` |
 | Section 4.4, Table 4.4, Figure 4.4, Appendix D | `04_run_pitl_analysis.py`, `07_make_figures.py` | `results/candidates_81_classified.csv`, `results/lexical_flags_c1.csv`, `results/lexical_flags_c2.csv`, `figures/fig4_4_pitl_indication_matrix.png` |

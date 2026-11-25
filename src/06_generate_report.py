@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-06_generate_report.py
-
-Generates results/REPLICATION_REPORT.md comparing all v2.2 script outputs
+06_generate_report.py — Generates results/REPLICATION_REPORT.md comparing PITL Corpus outputs
 against the values reported in the dissertation.
 """
 
@@ -10,24 +8,15 @@ import json
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent.parent
-RESULTS_DIR = ROOT / "results"
+RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 
 
 def main():
-    print("=" * 70)
-    print("STEP 6: GENERATING REPLICATION REPORT (v2.2)")
-    print("=" * 70)
-
+    print("STEP 6: GENERATING REPLICATION REPORT")
     diag = json.loads((RESULTS_DIR / "pitl_diagnostics.json").read_text())
     stab = json.loads((RESULTS_DIR / "thematic_stability.json").read_text())
     oecd = pd.read_csv(RESULTS_DIR / "oecd_trends_2022_2025.csv").set_index("year")
-
-    c = diag["corpus"]
-    sc = diag["screening"]
-    nb = diag["null_baseline"]
-    nn = diag["nearest_neighbour"]
-    pc = diag["positive_controls"]
+    c, sc, nb, nn, pc = diag["corpus"], diag["screening"], diag["null_baseline"], diag["nearest_neighbour"], diag["positive_controls"]
 
     rows = [
         ("Corpus documents", "21", str(c["n_docs"])),
@@ -49,21 +38,12 @@ def main():
         ("OECD 2022 vs 2025 child incidents (6 jurs)", "56 -> 305", f"{oecd.loc[2022, 'child_incidents']:,} -> {oecd.loc[2025, 'child_incidents']:,}"),
     ]
 
-    lines = [
-        "# Replication Report (Corpus v2.2)",
-        "",
-        "| Metric | Dissertation | Reproduced | Match |",
-        "|---|---|---|---|",
-    ]
-    mismatches = 0
-    for k, exp, got in rows:
-        match = "YES" if exp == got else "NO"
-        if match == "NO":
-            mismatches += 1
-        lines.append(f"| {k} | {exp} | {got} | {match} |")
-
+    lines = ["# Replication Report (PITL Corpus)", "", "| Metric | Dissertation | Reproduced | Match |", "|---|---|---|---|"]
+    lines += [f"| {k} | {exp} | {got} | {'YES' if exp == got else 'NO'} |" for k, exp, got in rows]
     out = RESULTS_DIR / "REPLICATION_REPORT.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    mismatches = sum(exp != got for _, exp, got in rows)
     print(f"Saved {out} ({len(rows) - mismatches}/{len(rows)} matched)")
     assert mismatches == 0, f"{mismatches} metric(s) failed to match dissertation values!"
     print("STEP 6 COMPLETE")
