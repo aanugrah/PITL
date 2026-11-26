@@ -2,7 +2,7 @@
 
 **Beyond the Pacing Problem: A "Parent-in-the-Loop" (PITL) Co-Regulation Framework and Computational Legal Analysis for Adolescent AI Safety**
 
-Ananda Anugrah, MSc Artificial Intelligence and Government, University of Birmingham, 2026.
+Student ID: 2804877, MSc Artificial Intelligence and Government, University of Birmingham, 2026.
 
 This repository holds the data and code behind Chapters 1, 3 and 4 of the dissertation (PITL Corpus), so that the numbers, tables and figures can be checked and re-run.
 

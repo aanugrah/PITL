@@ -29,7 +29,7 @@ Methodology:
    Contains sample_id (UF-001 to UF-100), jurisdiction, doc_id, provision_id, heading, text,
    and blank columns for Author_Code (P/G/F) and Author_Notes.
 
-Author: Ananda Anugrah
+Author: Student ID 2804877
 Date: 2026-11-08
 Seed: 20261108
 """
